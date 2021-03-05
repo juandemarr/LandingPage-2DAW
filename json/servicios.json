@@ -1,0 +1,64 @@
+{
+    "servicios":[
+        {
+            "Titulo":"Busto Ahsoka",
+            "Texto":"Serie The Clone Wars Temporada 7",
+            "Imagen":"img/ahsoka.jpg",
+            "Enlace":"https://www.google.es/"
+        },
+        {
+            "Titulo":"Star Wars KOTOR 2: The Sith Lords",
+            "Texto":"Ambientado en la Antigua República",
+            "Imagen":"img/Kotor_2.jpg",
+            "Enlace":"https://www.google.es/"
+        },
+        {
+            "Titulo":"Camiseta Anakin y Padme",
+            "Texto":"Camiseta Unisex del Episodio 2",
+            "Imagen":"img/anakinypadme.jpg",
+            "Enlace":"https://www.google.es/"
+        },
+        {
+            "Titulo":"Figura La Armera",
+            "Texto":"Tamaño: 6 pulgadas. The Mandalorian",
+            "Imagen":"img/armera.jpg",
+            "Enlace":"https://www.google.es/"
+        },
+        {
+            "Titulo":"Sable de luz de Anakin Skywalker",
+            "Texto":"Réplica de la espada de luz de Anakin",
+            "Imagen":"img/anakin.jpg",
+            "Enlace":"https://www.google.es/"
+        },
+        {
+            "Titulo":"Figura El Mandaloriano",
+            "Texto":"Tamaño: 6 pulgadas. The Mandalorian",
+            "Imagen":"img/mando.jpg",
+            "Enlace":"https://www.google.es/"
+        },
+        {
+            "Titulo":"Star Wars Battlefront 2",
+            "Texto":"Ambientado en todas las eras de Star Wars",
+            "Imagen":"img/battlefront2.jpg",
+            "Enlace":"https://www.google.es/"
+        },
+        {
+            "Titulo":"Casco de Darth Vader",
+            "Texto":"Casco completo del señor oscuro Darth Vader",
+            "Imagen":"img/casco.jpg",
+            "Enlace":"https://www.google.es/"
+        },
+        {
+            "Titulo":"Figura Grogu",
+            "Texto":"Co-protagonista de la serie The Mandalorian",
+            "Imagen":"img/grogu.jpg",
+            "Enlace":"https://www.google.es/"
+        },
+        {
+            "Titulo":"Diorama de Anakin y Obi Wan",
+            "Texto":"¡Tú eras el elegido!",
+            "Imagen":"img/anakin-vs-obiwan.jpg",
+            "Enlace":"https://www.google.es/"
+        }
+    ]
+}

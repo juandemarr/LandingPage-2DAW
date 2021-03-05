@@ -1,0 +1,332 @@
+@font-face{
+    font-family:"letter";
+    src:url(font/Starjedi.ttf);
+}
+*{
+    box-sizing:border-box;
+    margin:0;
+}
+body{
+    background-color:#e3e3e3;
+    font-family:sans-serif;
+}
+
+/*HEADER*/
+
+header{
+    display:flex;
+    justify-content:center;
+    background-color:black;
+}
+header div{
+    display:flex;
+    justify-content:space-between;
+    width:90%;
+    align-items:center;
+}
+#sub{
+    width:100px;
+    background-color:#a07023;
+    color:white;
+}
+#sub:hover{
+    transition:.3s ease-out;
+    background-color:white;
+    color:#a07023;
+}
+#logo{
+    width:75px;
+}
+
+/*HERO*/
+
+#hero{
+    position:relative;
+    display:flex;
+}
+#hero div{
+    line-height: 30px;
+    width:100%;
+    position:absolute;
+    align-self: center;
+    text-align:center;
+    color:white;
+}
+#hero h1{
+    font-size:1.05rem;
+    letter-spacing:10px;
+    font-family:"letter";
+}
+#hero p{
+    font-size:.95rem;
+    letter-spacing:3px;
+}
+video{
+    width:100%;
+}
+footer a{
+    color:white;
+}
+a{
+    color:black;
+    text-decoration:none;
+}
+.boton{
+    padding:5px;
+    height:30px;
+    background-color:white;
+    border-radius:5px;
+    color:#a07023;
+    font-weight:bold;
+    border:1px solid #a07023;
+}
+
+/*SERVICIOS*/
+
+#servicios{
+    display:flex;
+    flex-wrap:wrap;
+    margin:3% 3% 0;
+}
+#servicios > div{
+    margin:0 2% 2% 0;
+    width:31%;
+    background-color:white;
+    box-shadow:2px 2px 6px 2px grey;
+    padding:2%;
+}
+#servicios .divImagen{
+    height:100px;
+}
+#servicios img{
+    object-fit:contain;
+    width:100%;
+    height:100%;
+}
+#servicios p:first-child{
+    font-size:.95rem;
+}
+.sTitulo{
+    font-weight:bold;
+    font-size:1.1rem;
+    margin-bottom:10%;
+}
+#servicios p:nth-child(2){
+    margin-bottom:10%;
+}
+
+/*COMENTARIOS*/
+
+.cTitulo{
+    font-weight:bold;
+}
+#comentarios{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    width:70%;
+    margin: 5% auto;
+    min-height:20rem;
+    align-items:center;
+}
+#comentarios div{
+    padding:2%;
+    border:2px solid #a07023;
+    width:100%;
+    border-radius:10px;
+}
+#comentarios div p{
+    margin-bottom:1%;
+}
+#cambiarVista{/*boton*/
+    width:120px;
+    margin:-1% auto 0;
+    background-color:white;
+    color:#a07023;
+}
+#cambiarVista:hover{
+    transition:.3s ease-out;
+    background-color:#a07023;
+    color:white;
+}
+
+/*Tabla*/
+
+table{
+    border-collapse: collapse;
+    width:100%;
+    margin:0 auto;
+}
+table tr{
+    border:2px solid #a07023;
+}
+table td{
+    padding:3%;
+}
+table p:first-child{
+    font-weight:bold;
+}
+
+/*FORMULARIO*/
+
+#formulario{
+    margin:3% 3% 0;
+}
+#formulario > div{
+    width:80%;
+    margin:0 auto;
+    background-color:#a07023;
+    padding:4% 1%;
+    border:2px solid #a07023;
+    border-radius:10px;
+    font-weight:bold;
+}
+form{
+    display:flex;
+    flex-direction:column;
+    width: 70%;
+    margin:0 auto;  
+}
+#formulario input{
+    margin-bottom:8%;
+    font-size:.9rem;
+    padding:2%;
+    border:0px;
+    border-radius:5px;    
+}
+#formulario label{
+    margin-bottom:5%;
+    color:white
+}
+#password2{
+    margin-bottom:0;
+}
+#formulario p{
+    margin-bottom:2%;
+    font-weight:bold;
+}
+#formulario input[type="submit"]{
+    width:100px;
+    font-weight:bold;
+    margin:0 auto;
+    color:#a07023;
+}
+#formulario input[type="submit"]:hover{
+    transition:.3s ease-out;
+    color:#a07023;
+    color:black;
+}
+#subir{
+    background-image: url(img/arrow_up.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding:5px;
+    height:40px;
+    width:40px;
+    border-radius:50px;
+    color:white;
+    border:2px solid black;
+}
+#subir:hover{
+    transition:.2s ease-out;
+    border:2px solid #a07023;
+}
+#main > div{
+    overflow: hidden;
+    display:flex;
+    justify-content:flex-end;
+    padding:1% 3%;
+}
+
+/*FOOTER*/
+
+footer{
+    display:flex;
+    flex-direction:column;
+    background-color:black;
+    padding:5%;
+    align-items:center;
+    text-align:center;
+}
+footer p{
+    margin-bottom:5%;
+}
+
+@media screen and (min-width:568px){
+    #hero h1{
+        font-size:2rem;
+    }
+    #hero p{
+        font-size:1.2rem;
+    }
+    #hero div{
+        line-height: 50px;
+    }
+    
+    /*SERVICIOS*/
+    
+    #servicios > div{
+        width:23%;
+        padding:1.5%;
+    }
+    #servicios img{
+        object-fit:contain;
+        width:100%;
+        height:100%;
+    }
+    #servicios .divImagen{
+        height:100px;
+    }
+    #servicios p:first-child{
+        font-size:1rem;
+    }
+    
+    /*COMENTARIOS*/
+    
+    #comentarios{
+        width:80%;
+        flex-direction:row;
+        min-height:15rem;
+    }
+    #comentarios div{
+        width:30%;
+    }
+    table td{
+        padding:1%;
+    }
+    
+    /*FORMULARIO*/
+    
+    #formulario > div{
+        width:60%;
+    }
+    form{
+        width: 70%;
+    }
+    footer{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        padding:3%;
+        align-items:none;
+        text-align:left;
+    }
+}
+
+@media screen and (min-width:768px){
+    #hero h1{
+        font-size:2.5rem;
+    }
+    #hero p{
+        font-size:1.5rem;
+    }
+    #comentarios{
+        min-height:15rem;
+    }
+    #comentarios div{
+        height:12rem;
+    }
+    #formulario > div{
+        width:35%;
+    }
+}
