@@ -327,12 +327,6 @@ footer p{
     #hero p{
         font-size:1.5rem;
     }
-    #comentarios{
-        min-height:15rem;
-    }
-    #comentarios div{
-        height:12rem;
-    }
     #formulario > div{
         width:35%;
     }
