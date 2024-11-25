@@ -58,7 +58,7 @@ function cargarServicios(){
 function colocarServicios(servicios){
     for( i=0; i<5; i++){
         $("#servicios").append(
-                        $("<div>").append($("<a href=\""+servicios.servicios[i].Enlace+"\" target=\"_blank\">").append($("<p class=\"sTitulo\">").text(servicios.servicios[i].Titulo))
+                        $("<div>").append($("<a href=\""+servicios.servicios[i].Enlace+"\">").append($("<p class=\"sTitulo\">").text(servicios.servicios[i].Titulo))
                         .append($("<p>").text(servicios.servicios[i].Texto))
                         .append($("<div class=\"divImagen\">").append($("<img src="+servicios.servicios[i].Imagen+">")))));
     }

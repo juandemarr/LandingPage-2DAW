@@ -90,10 +90,10 @@ a{
 }
 #servicios > div{
     margin:0 2% 2% 0;
-    width:31%;
+    width:48%;
     background-color:white;
     box-shadow:2px 2px 6px 2px grey;
-    padding:2%;
+    padding:3%;
 }
 #servicios .divImagen{
     height:100px;
@@ -266,8 +266,8 @@ footer p{
     /*SERVICIOS*/
     
     #servicios > div{
-        width:23%;
-        padding:1.5%;
+        width:31%;
+        padding:2%;
     }
     #servicios img{
         object-fit:contain;
@@ -314,6 +314,13 @@ footer p{
 }
 
 @media screen and (min-width:768px){
+    #servicios > div{
+        width:23%;
+        padding:1.5%;
+    }
+    #servicios .sTitulo{
+        margin-bottom:6%;
+    }
     #hero h1{
         font-size:2.5rem;
     }
@@ -328,5 +335,11 @@ footer p{
     }
     #formulario > div{
         width:35%;
+    }
+}
+
+@media screen and (min-width:992px){
+    #servicios > div{
+        width:18%;
     }
 }
